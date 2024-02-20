@@ -1,0 +1,79 @@
+.parent {
+  box-shadow: 1px 1px 10px 1px black;
+  padding: 51px;
+  display: flex;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  margin: 2% auto;
+  width: 68%;
+  height: 76vh;
+  background-color: azure;
+}
+.side-1,
+.side-2 {
+  background-color: beige;
+  width: 50%;
+  border-radius: 15px 0 0 15px;
+  /* box-shadow: 1px 1px 10px 1px black; */
+  background-color: beige;
+  width: 50%;
+}
+.side-2 {
+  border-radius: 0 15px 15px 0;
+}
+h1 {
+  font-size: 36px;
+  width: 24%;
+  margin: 9% auto 0%;
+}
+.form {
+  padding: 39px 56px 0;
+}
+.condition {
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+.name,
+.password,
+.email,
+.re-password {
+  margin: 0 0 5% 0;
+  align-items: center;
+  display: flex;
+}
+.fa-solid {
+  width: 56px;
+  font-size: 33px;
+}
+input {
+  width: 73%;
+  padding: 0 6px;
+  height: 25px;
+}
+.checkbox {
+  margin-right: 14px;
+  width: 18px;
+}
+button {
+  margin: 0 36%;
+  border-radius: 4px;
+  height: 5.5vh;
+  width: 27%;
+  background-color: #3b71ca;
+  border: none;
+  color: white;
+}
+span {
+  color: blue;
+}
+img {
+  height: 76vh;
+  border-radius: 0 15px 15px 0;
+  width: 100%;
+}
+.shadow {
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 1px black;
+  display: flex;
+}
